@@ -69,9 +69,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             caption=(
                 f"👋 {query.from_user.username}\n\n"
                 f"<b><blockquote>🎖️ Available Plans :</blockquote></b>\n\n"
-                f"<b>◈ {PRICE1}  For 7 Days Prime Membership</b>\n\n"
-                f"<b>◈ {PRICE2}  For 1 Month Prime Membership</b>\n\n"
-                f"<b>◈ {PRICE3}  For 3 Months Prime Membership</b>\n\n"
+                f"◈ {PRICE1}  For 7 Days Prime Membership\n\n"
+                f"◈ {PRICE2}  For 1 Month Prime Membership\n\n"
+                f"◈ {PRICE3}  For 3 Months Prime Membership\n\n"
                 f"<b><blockquote>💵 ASK UPI ID TO ADMIN AND PAY THERE -  </blockquote></b>\n\n"
                 f"<b><blockquote>♻️ After Payment You Will Get Instant Membership</blockquote></b>\n"
                 f"<b><blockquote>‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin</blockquote></b>"
