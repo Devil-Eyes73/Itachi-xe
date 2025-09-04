@@ -67,7 +67,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             chat_id=query.message.chat.id,
             photo=QR_PIC,
             caption=(
-                f"👋 {query.from_user.username}\n\n"
+                f"<b>👋 {query.from_user.username}</b>\n\n"
                 f"<b><blockquote>🎖️ Available Plans :</blockquote></b>\n\n"
                 f"<b>◈ {PRICE1}  For 7 Days Prime Membership</b>\n\n"
                 f"<b>◈ {PRICE2}  For 1 Month Prime Membership</b>\n\n"
