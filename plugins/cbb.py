@@ -68,13 +68,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             photo=QR_PIC,
             caption=(
                 f"👋 {query.from_user.username}\n\n"
-                f"<b><blockquote>🎖️ Available Plans :</blockquote></b>\n\n"
+                f"🎖️ Available Plans :\n\n"
                 f"◈ {PRICE1}  For 7 Days Prime Membership\n\n"
                 f"◈ {PRICE2}  For 1 Month Prime Membership\n\n"
                 f"◈ {PRICE3}  For 3 Months Prime Membership\n\n"
-                f"<b><blockquote>💵 ASK UPI ID TO ADMIN AND PAY THERE - @devil_Eyes_xe</blockquote></b>\n\n"
-                f"<b><blockquote>♻️ After Payment You Will Get Instant Membership</blockquote></b>\n"
-                f"<b><blockquote>‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin</blockquote></b>"
+                f"💵 ASK UPI ID TO ADMIN AND PAY THERE - @devil_Eyes_xe\n\n"
+                f"♻️ After Payment You Will Get Instant Membership\n"
+                f"‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin"
             ),
             reply_markup=InlineKeyboardMarkup(
                 [
