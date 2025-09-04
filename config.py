@@ -92,12 +92,12 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "devil_eyes_xe")
 UPI_ID = os.environ.get("UPI_ID", "add soon")
-QR_PIC = os.environ.get("QR_PIC", "add soon")
+QR_PIC = os.environ.get("QR_PIC", "https://i.postimg.cc/wjk6gR63/4180096f73dc1c8b1693cf3bc2f5304d.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"")
 #--------------------------------------------
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "0 rs")
+PRICE1 = os.environ.get("PRICE1", "10 rs")
 #1 Month
 PRICE2 = os.environ.get("PRICE2", "60 rs")
 #3 Month
