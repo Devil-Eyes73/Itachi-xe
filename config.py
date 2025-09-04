@@ -91,9 +91,9 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "devil_eyes_xe")
-UPI_ID = os.environ.get("UPI_ID", "add soon")
+UPI_ID = os.environ.get("UPI_ID", "soon")
 QR_PIC = os.environ.get("QR_PIC", "https://i.postimg.cc/wjk6gR63/4180096f73dc1c8b1693cf3bc2f5304d.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"https://t.me/+KvoMVmPHAO41OWVl")
 #--------------------------------------------
 #Time and its price
 #7 Days
