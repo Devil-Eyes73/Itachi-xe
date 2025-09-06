@@ -67,16 +67,14 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             chat_id=query.message.chat.id,
             photo=QR_PIC,
             caption=(
-                f"👋 {query.from_user.username}\n\n"
-                f"🎖️ Available Plans :\n\n"
-                f"● {PRICE1}  For 0 Days Prime Membership\n\n"
-                f"● {PRICE2}  For 1 Month Prime Membership\n\n"
-                f"● {PRICE3}  For 3 Months Prime Membership\n\n"
-                f"● {PRICE4}  For 6 Months Prime Membership\n\n"
-                f"● {PRICE5}  For 1 Year Prime Membership\n\n\n"
-                f"💵 ASK UPI ID TO ADMIN AND PAY THERE -  <code>{UPI_ID}</code>\n\n\n"
-                f"♻️ After Payment You Will Get Instant Membership \n\n\n"
-                f"‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin"
+                f"<b>👋 {query.from_user.username}</b>\n\n"
+                f"<b><blockquote>🎖️ Available Plans :</blockquote></b>\n\n"
+                f"<b>◈ {PRICE1}  For 7 Days Prime Membership</b>\n\n"
+                f"<b>◈ {PRICE2}  For 1 Month Prime Membership</b>\n\n"
+                f"<b>◈ {PRICE3}  For 3 Months Prime Membership</b>\n\n"
+                f"<b><blockquote>💵 ASK UPI ID TO ADMIN AND PAY THERE - @devil_Eyes_xe</blockquote></b>\n\n"
+                f"<b><blockquote>♻️ After Payment You Will Get Instant Membership</blockquote></b>\n"
+                f"<b><blockquote>‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin</blockquote></b>"
             ),
             reply_markup=InlineKeyboardMarkup(
                 [
